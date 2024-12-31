@@ -1,0 +1,77 @@
+/* App.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.weather-card h2 {
+  margin: 0;
+}
+
+.weather-card .weather-icon {
+  margin: 20px 0;
+}
+
+.weather-card .temperature {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.history {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.history li {
+  padding: 8px;
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  border-radius: 5px;
+}
